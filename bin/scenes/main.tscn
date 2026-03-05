@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cnos5wv0o4f5k"]
+
+[ext_resource type="Script" uid="uid://bo28861d3le8w" path="res://bin/scripts/game_manager.gd" id="1_73hwu"]
+[ext_resource type="Script" uid="uid://bq1jon8ilut2p" path="res://bin/scripts/main.gd" id="1_j5ry0"]
+
+[node name="Main" type="Node" unique_id=150996942]
+script = ExtResource("1_j5ry0")
+
+[node name="GameManager" type="Node" parent="." unique_id=1313405383]
+script = ExtResource("1_73hwu")
+
+[node name="World" type="Node2D" parent="." unique_id=648902994]
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1170222656]
